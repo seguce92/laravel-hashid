@@ -21,7 +21,6 @@
         }
     ],
     "require": {
-        "kissparadigm/laravel-package": "1.*",
         "hashids/hashids": "2.*"
     },
     "autoload": {

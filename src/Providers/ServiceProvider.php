@@ -12,17 +12,14 @@
     namespace KissParadigm\LaravelHashid\Providers;
 
     use KissParadigm\LaravelHashid\Libraries\Hashid;
-    use KissParadigm\LaravelPackage\Providers\ServiceProvider as KissParadigmServiceProvider;
 
     class ServiceProvider extends KissParadigmServiceProvider {
 
         public function boot() {
-            $this->setPackage('laravel-hashid', __DIR__ . '/../../res');
-            parent::boot();
+            $this->publishes([__DIR__ . '/../../res/config/laravel-hashid.php' => config_path('laravel-hashid.php')], 'laravel-hashid');
         }
 
         public function register() {
-            parent::register();
             \App::singleton('hashid', function () {
                 return new Hashid();
             });
