@@ -11,9 +11,10 @@
 
     namespace KissParadigm\LaravelHashid\Providers;
 
+    use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
     use KissParadigm\LaravelHashid\Libraries\Hashid;
 
-    class ServiceProvider extends KissParadigmServiceProvider {
+    class ServiceProvider extends IlluminateServiceProvider{
 
         public function boot() {
             $this->publishes([__DIR__ . '/../../res/config/laravel-hashid.php' => config_path('laravel-hashid.php')], 'laravel-hashid');
