@@ -1,5 +1,5 @@
 <?php
-namespace Seguec92\LaravelHashid;
+namespace Seguce92\LaravelHashid;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
