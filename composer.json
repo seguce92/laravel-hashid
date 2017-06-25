@@ -1,23 +1,17 @@
 {
     "name": "seguce92/laravel-hashid",
-    "description": "Simple package for Laravel framework.",
+    "description": "Hashid for Laravel framework.",
     "keywords": [
-        "kissparadigm",
+        "hashid",
         "laravel",
-        "hashid"
+        "seguce92"
     ],
-    "homepage": "https://github.com/KissParadigm/Laravel-Hashid",
-    "support": {
-        "source": "https://github.com/KissParadigm/Laravel-Hashid",
-        "issues": "https://github.com/KissParadigm/Laravel-Hashid/issues"
-    },
-    "license": "Beerware",
+    "license": "MIT",
     "authors": [
         {
-            "name": "KissParadigm",
-            "email": "kissparadigm@gmail.com",
-            "homepage": "https://www.kissparadigm.com",
-            "role": "Developer"
+            "name": "Sergio Gualberto Cruz Espinoza",
+            "email": "seguce92@gmail.com",
+            "homepage": "https://mascodigo.net"
         }
     ],
     "require": {
@@ -25,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "KissParadigm\\LaravelHashid\\": "src"
+            "Seguce92\\LaravelHashid\\": "src"
         },
         "files": [
             "src/Helpers/Hashid.php"
