@@ -12,7 +12,7 @@ class ServiceProvider extends IlluminateServiceProvider{
      */
     public function boot()
     {
-        $this->publishes([__DIR__ . 'config/laravel-hashid.php' => config_path('seguce92/laravel-hashid.php')], 'laravel-hashid');
+        $this->publishes([__DIR__ . '/config/laravel-hashid.php' => config_path('seguce92/laravel-hashid.php')], 'laravel-hashid');
     }
 
     /**
