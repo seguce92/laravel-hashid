@@ -1,6 +1,6 @@
 <?php
 
-namespace Seguce92\LaravelHashid\Providers;
+namespace Seguce92\LaravelHashid;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 use Seguce92\LaravelHashid\Hashid;
