@@ -25,5 +25,15 @@
             "src/Helpers/Hashid.php"
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Seguce92\\LaravelHashid\\ServiceProvider"
+            ],
+            "aliases": [
+                "Seguce92\\LaravelHashid\\Facade"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
