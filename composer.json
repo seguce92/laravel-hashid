@@ -1,6 +1,7 @@
 {
     "name": "seguce92/laravel-hashid",
     "description": "Hashid for Laravel framework.",
+    "type": "library",
     "keywords": [
         "hashid",
         "laravel",
@@ -11,7 +12,7 @@
         {
             "name": "Sergio Gualberto Cruz Espinoza",
             "email": "seguce92@gmail.com",
-            "homepage": "https://mascodigo.net"
+            "homepage": "https://sergiocruzes.com"
         }
     ],
     "require": {
